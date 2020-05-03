@@ -1,0 +1,51 @@
+@charset "UTF-8";
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif;
+    background-color: #f6f7f6;
+    font-size: 15px;
+    line-height: 25px;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+#content {
+height: auto;
+    width: 100%;
+text-align: center;
+background-color: #fdfdfd;
+}
+#back {
+width: 50%;
+height: 76px;
+position: fixed;
+bottom: 0;
+left: 0;
+z-index: 2;
+text-align: left;
+}
+#back img {
+width: 36px;
+height: 36px;
+margin: 20px 20px;
+}
+@media (min-width: 751px) {
+.page {
+  height: auto;
+  width: 45%;
+margin: 0;
+padding: 0;
+}
+}
+@media (max-width: 750px) {
+.page {
+  height: auto;
+  width: 95%;
+margin: 0;
+padding: 0;
+}
+}

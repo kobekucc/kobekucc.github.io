@@ -1,0 +1,189 @@
+@charset "UTF-8";
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif;
+    background-color: #f6f7f6;
+    font-size: 15px;
+    line-height: 25px;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+#content {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+#back {
+    width: 50%;
+    height: 76px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    text-align: left;
+}
+#back img {
+    width: 36px;
+    height: 36px;
+    margin: 20px 20px;
+}
+
+
+@media only screen and (min-width: 751px) {
+#gaiyou {
+    width: 50%;
+    height: auto;
+    margin: 50px auto;
+    padding: 30px 50px;
+    background: #f7f7f7;
+    list-style: none;
+    text-align: left;
+}
+#gaiyou li {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 20px;
+}
+#gaiyou a{
+    text-decoration: none;
+    color: #777;
+    border-top: 1px solid #dedede;
+    display: block;
+}
+#gaiyou a:first-child {
+    border-top: none;
+}
+#gaiyou a:hover {
+    color: #222;
+}
+.blankbox {
+    display: block;
+    height: 200px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.panel {
+    height: 90%;
+    width: auto;
+    margin: 20px;
+    padding: 0;
+    vertical-align: top;
+}
+.panel2 {
+    height: 70%;
+    width: auto;
+    margin: 20px;
+    padding: 0;
+    vertical-align: top;
+}
+.panel3 {
+    height: auto;
+    width: 90%;
+    margin: 20px 0 0 0;
+    padding: 0;
+    vertical-align: top;
+}
+.cap {
+    width: 30%;
+    height: auto;
+    padding: 30px;
+    background: #f6f7f6;
+    margin: 40px 0 0 0;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.cap b {
+    font-size: 2em;
+}
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
+#gaiyou {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #f7f7f7;
+    list-style: none;
+    text-align: left;
+}
+#gaiyou li {
+width: 100%;
+height: auto;
+padding: 0;
+margin: 10px 0;
+letter-spacing: 1px;
+font-size: 15px;
+line-height: 20px;
+}
+#gaiyou a{
+text-decoration: none;
+color: #777;
+border-top: 1px solid #dedede;
+display: block;
+}
+#gaiyou a:first-child {
+border-top: none;
+}
+#gaiyou a:hover {
+color: #222;
+}
+.blankbox {
+display: block;
+height: 200px;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+.panel {
+  height: auto;
+  width: 90%;
+margin: 20px auto;
+padding: 0;
+}
+.panel2 {
+  height: auto;
+  width: 90%;
+margin: 20px auto;
+padding: 0;
+}
+.panel3 {
+  height: auto;
+  width: 90%;
+margin: 20px auto;
+padding: 0;
+}
+.cap {
+width: 70%;
+hright: auto;
+padding: 5%;
+background: #f6f7f6;
+margin: 20px auto;
+text-align: left;
+display: block;
+}
+.cap b {
+font-size: 2em;
+}
+}

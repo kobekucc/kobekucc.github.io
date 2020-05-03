@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@media only screen and (max-width: 750px) {
+.icon {
+     width: 30px;
+     height: 30px;
+     margin: 5px 15px 5px 0px;
+     padding: 0;
+     vertical-align: middle;
+}
+#menu {
+     width: 100%;
+     height: auto;
+     margin: 30px 5px 50px 5px;
+     padding: 0;
+     background: #e9ebe9;
+     border-radius: 5px;
+     display: flex;
+}
+#menu a {
+     display: inline;
+     width: 100%;
+     margin: 5px 10px;
+     padding: 0;
+     font-size: 15px;
+     line-height: 20px;
+     text-decoration: none;
+     color: #404840;
+     border-right: 1px solid #fff;
+     text-align: center;
+     font-weight: bold;
+     vertical-align: middle;
+}
+#menu a:last-child {
+     border-right: none;
+}
+#menu a:hover {
+color: #8a978a;
+}
+h1 {
+width: auto;
+height: 40px;
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+letter-spacing: 1px;
+margin: 10px 0;
+padding: 0;
+text-align: left;
+}
+h1 a {
+text-decoration: none;
+color: #000;
+}
+#footer {
+display: inline-block;
+width: 100%;
+height: 100px;
+margin: 100px auto 0 auto;
+padding: 0;
+text-align: center;
+vertical-align: center;
+background: #fff;
+font-size: 13px;
+color: #4c564c;
+}
+}
+
+
+
+
+
+@media only screen and (min-width: 751px) {
+.icon {
+width: 75px;
+height: 75px;
+margin: 5px 15px 5px 0px;
+padding: 0;
+vertical-align: middle;
+}
+#menu {
+width: 100%;
+height: 40px;
+margin: 30px 5px 50px 5px;
+padding: 0;
+background: #e9ebe9;
+border-radius: 5px;
+display: flex;
+}
+#menu a {
+width: 100%;
+height: 30px;
+margin: 5px 10px;
+padding: 0;
+font-size: 15px;
+line-height: 30px;
+text-decoration: none;
+color: #404840;
+border-right: 1px solid #fff;
+text-align: center;
+font-weight: bold;
+}
+#menu a:last-child {
+border-right: none;
+}
+#menu a:hover {
+color: #8a978a;
+}
+h1 {
+width: auto;
+height: 75px;
+font-weight: 700;
+font-size: 50px;
+line-height: 75px;
+letter-spacing: 2px;
+margin: 20px 0;
+padding: 0;
+text-align: left;
+}
+h1 a {
+text-decoration: none;
+color: #000;
+}
+#footer {
+display: inline-block;
+width: 100%;
+height: 100px;
+margin: 100px auto 0 auto;
+padding: 0;
+text-align: center;
+vertical-align: center;
+background: #fff;
+font-size: 13px;
+color: #4c564c;
+}
+}
