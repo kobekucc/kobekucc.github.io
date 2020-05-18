@@ -69,6 +69,10 @@ body {
 #gaiyou a:hover {
     color: #222;
 }
+#gaiyou .title {
+color: #333;
+font-weight: bold;
+}
 .blankbox {
     display: block;
     height: 200px;
@@ -148,6 +152,10 @@ border-top: none;
 }
 #gaiyou a:hover {
 color: #222;
+}
+#gaiyou .title {
+color: #333;
+font-weight: bold;
 }
 .blankbox {
 display: block;
