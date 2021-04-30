@@ -39,8 +39,11 @@ body {
     width: 392px;
     max-width: 100%;
     margin: 0 auto;
+    padding: 0;
 }
 .ankebotan:hover img {
+    width: auto;
+    max-width: 100%;
     filter: brightness(110%);
 }
 .slideshow figure {
