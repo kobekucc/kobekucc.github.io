@@ -37,6 +37,7 @@ body {
 .ankebotan {
     display: block;
     width: 392px;
+    max-width: 100%;
     margin: 0 auto;
 }
 .ankebotan:hover img {
@@ -54,6 +55,11 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+#blankbox {
+    height: 20%;
+    margin: 0;
+    padding: 0;
 }
 
 
