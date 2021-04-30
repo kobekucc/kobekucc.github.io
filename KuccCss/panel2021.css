@@ -59,11 +59,6 @@ body {
     padding: 0;
     overflow: hidden;
 }
-#blankbox {
-    height: 20%;
-    margin: 0;
-    padding: 0;
-}
 .mfp-bg {
     position: fixed;
     top: 0;
