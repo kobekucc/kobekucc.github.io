@@ -56,6 +56,11 @@ body {
     padding: 0;
     overflow: hidden;
 }
+#blankbox {
+    height: 20%;
+    margin: 0;
+    padding: 0;
+}
 
 
 @media only screen and (min-width: 751px) {
