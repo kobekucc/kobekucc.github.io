@@ -40,10 +40,13 @@ body {
     max-width: 100%;
     margin: 0 auto;
     padding: 0;
+    overflow: hidden;
 }
-.ankebotan:hover img {
+.ankebotan img {
     width: auto;
     max-width: 100%;
+}
+.ankebotan:hover img {
     filter: brightness(110%);
 }
 .slideshow figure {
